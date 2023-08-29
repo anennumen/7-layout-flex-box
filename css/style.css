@@ -3,13 +3,16 @@
 
 #calyblok{
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 
-#Header{
+#header{
     background-color: red;
     color: #fff;
     text-align: center;
+    
 }
 
 #p{
@@ -19,55 +22,55 @@
     min-height: 200px;
 }
 
-#Left{
+#left{
     background-color: green;
     color: #fff;
     text-align: center;
     min-height: 200px;
 }
 
-#Right{
+#right{
     background-color: pink;
     color: #fff;
     text-align: center;
     min-height: 200px;
 }
-#Fotter{
+#fotter{
     background-color: blueviolet;
     color: #fff;
     text-align: center;
 }
 
-@media (max-width 768px) {
+@media (max-width: 768px) {
     #p
-    #Right
-    #Left {
-        width: 100%;
+    #right
+    #left {
+        width: 45%;
     }
 }
 
-@media (max-width 992px ){
+@media (max-width: 992px ){
     #p
-    #Right
-    #Left {
-        width: 100%;
+    #right
+    #left {
+        width: 60%;
     }
 
 }
 
-@media(min-width 768px){
+@media(min-width: 768px){
     #p
-    #Right
-    #Left {
-        width: 100%;}
+    #right
+    #left {
+        width: 50%;}
 
     }
 
  
-@media (min-width 768px) and (max-width 992px ){
+@media (min-width: 768px) and (max-width: 992px ){
     #p
-    #Right
-    #Left {
-        width: 100%;}
+    #right
+    #left {
+        width: 40%;}
 
 }
