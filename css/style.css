@@ -12,6 +12,7 @@
     background-color: red;
     color: #fff;
     text-align: center;
+    width: 100%;
     
 }
 
@@ -27,6 +28,7 @@
     color: #fff;
     text-align: center;
     min-height: 200px;
+    width: 100%;
 }
 
 #right{
@@ -34,11 +36,13 @@
     color: #fff;
     text-align: center;
     min-height: 200px;
+    width: 100%;
 }
 #fotter{
     background-color: blueviolet;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -50,10 +54,19 @@
 }
 
 @media (max-width: 992px ){
-    #p
+    #p{
+        width: 40%;
+        order: 1;
+    }
     #right
     #left {
-        width: 60%;
+        width: 30%;
+    }
+    #left{
+        order: 0;
+    }
+    #right{
+        order: 1;
     }
 
 }
